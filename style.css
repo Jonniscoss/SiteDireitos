@@ -55,11 +55,13 @@ body {
     word-break: break-all;
 }
 
-.dierito2 {
-    align-items: center;
-    gap: 20px;
-    width: 100%;
+.direito2 {
     display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    background-color: gray;
+    align-items: center;
 }
 
 .direito2title {
@@ -71,4 +73,41 @@ body {
     display: flex;
     color: white;
     font-size: 50px;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.direito2text {
+    color: black;
+    word-break: keep-all;
+    margin: 20px;
+    padding: 20px;
+}
+
+.direito3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.direito3title {
+    background-color: black;
+    width: 300px;
+    height: 150px;
+    padding: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.direito3text {
+    color: black;
+    word-break: break-all;
 }
